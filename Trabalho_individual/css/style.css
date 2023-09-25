@@ -103,3 +103,7 @@ ul.nav.flex-column img {
   top: 0px;
   z-index: 100;
 }
+
+* {
+  font-family: "Libre Baskerville", serif;
+}
