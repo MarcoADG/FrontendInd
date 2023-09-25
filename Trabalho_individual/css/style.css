@@ -1,0 +1,105 @@
+body {
+  margin: 0%;
+  height: 100vh;
+  background-image: url(../img/wallpaperflare-cropped.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hover1:hover {
+  background-image: url(../img/download.png);
+  background-size: contain;
+}
+
+.col {
+  background-image: url(../img/74d3f368e26c08e07a56e4810e21937f.gif);
+  padding: 0px;
+  border: 4px solid blueviolet;
+  padding: 0;
+}
+
+.col:first-child {
+  margin-right: 100px;
+}
+
+.col:last-child {
+  margin-left: 100px;
+}
+
+h2 {
+  border-bottom: 2px solid blueviolet;
+  color: aliceblue;
+  margin: 1px;
+}
+
+p {
+  border-bottom: 2px solid blueviolet;
+  color: aliceblue;
+  padding: 4px;
+}
+
+p1 {
+  color: aliceblue;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 5%;
+}
+
+.container-fluid {
+  width: 80%;
+  height: 200%;
+  background-color: rgb(238, 202, 208);
+  margin: auto;
+  padding: auto;
+  position: relative;
+}
+
+.col ul li {
+  background: none;
+  border: none;
+  padding: 0px;
+  text-align: start;
+  color: aliceblue;
+}
+
+ul.nav.flex-column {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #000000;
+  padding: 0px;
+  margin-top: 314px;
+  border-left: 1px solid #ccc;
+}
+
+ul.nav.flex-column img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}

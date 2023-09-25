@@ -1,0 +1,25 @@
+body {
+  margin: 0%;
+  height: 100vh;
+  background-image: url(../imagens/heavy-heavy-weapons-guy.gif);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  padding: auto;
+}
+
+p {
+  font-size: 30px;
+  margin: 0%;
+}
+img {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
