@@ -54,6 +54,12 @@ img {
   height: 5%;
 }
 
+.sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
 .container-fluid {
   width: 80%;
   height: 200%;
@@ -79,7 +85,7 @@ ul.nav.flex-column {
   width: 200px;
   background-color: #000000;
   padding: 0px;
-  margin-top: 314px;
+  margin-top: 596px;
   border-left: 1px solid #ccc;
 }
 
@@ -106,4 +112,8 @@ ul.nav.flex-column img {
 
 * {
   font-family: "Libre Baskerville", serif;
+}
+
+p3 {
+  color: antiquewhite;
 }
